@@ -8,7 +8,7 @@ const MongoStore = require("connect-mongo");  // Para persistência de sessões 
 const mongoose = require("mongoose"); // Adicionado para a conexão com o MongoDB
 
 // Configurações do banco de dados MongoDB
-const MONGO_URI = process.env.MONGODB_URI || "mongodb://127.0.0.1:27017/project-heroes";
+const MONGO_URI = process.env.MONGODB_URI || "mongodb://127.0.0.1:27017/Heroes";
 
 // Conectar ao MongoDB
 mongoose.connect(MONGO_URI, { useNewUrlParser: true, useUnifiedTopology: true })

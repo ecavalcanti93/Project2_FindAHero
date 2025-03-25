@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 const Hero = require('../models/Hero.model');
 
-const MONGO_URI = process.env.MONGODB_URI || "mongodb://127.0.0.1:27017/project-heroes"
+const MONGO_URI = process.env.MONGODB_URI || "mongodb://127.0.0.1:27017/Heroes"
 
 const heroes = [
     {
