@@ -1,5 +1,5 @@
 // ℹ️ Gets access to environment variables/settings
-// https://www.npmjs.com/package/dotenv t
+// https://www.npmjs.com/package/dotenv T
 require("dotenv").config();
 
 // ℹ️ Connects to the database
